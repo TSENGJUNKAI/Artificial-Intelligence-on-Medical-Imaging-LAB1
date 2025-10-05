@@ -14,7 +14,7 @@ torch/torchvision/numpy/matplotlib/seaborn/scikit-learn/Pillow
 ## Installation
 ```bash
 pip install torch torchvision numpy matplotlib seaborn scikit-learn Pillow
-
+```
 ## Project Structure
 .
 ├── train.py              # Training script
@@ -29,15 +29,18 @@ pip install torch torchvision numpy matplotlib seaborn scikit-learn Pillow
 │       └── PNEUMONIA/
 
 ## Training
+```bash
 python train.py
-
+```
 This will:
 Train ResNet18 and ResNet50 models
 Save models as ResNet18_model.pth and ResNet50_model.pth
 Generate training curves and confusion matrices
 
 ## Inference
+```bash
 python inference.py
+```
 This will:
 Load trained models
 Evaluate on test dataset
