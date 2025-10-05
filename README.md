@@ -16,6 +16,7 @@ torch/torchvision/numpy/matplotlib/seaborn/scikit-learn/Pillow
 pip install torch torchvision numpy matplotlib seaborn scikit-learn Pillow
 ```
 ## Project Structure
+```bash
 .
 ├── train.py              # Training script
 ├── inference.py          # Inference script
@@ -27,7 +28,7 @@ pip install torch torchvision numpy matplotlib seaborn scikit-learn Pillow
 │   └── test/
 │       ├── NORMAL/
 │       └── PNEUMONIA/
-
+```
 ## Training
 ```bash
 python train.py
